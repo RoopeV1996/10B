@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styletable.css" type="text/css" media="all">
+    <title>10B</title>
+</head>
+<body>
+    <h1>10B</h1>
+    <table>
+        <tbody>
+            <tr>
+                <th>Lämmintä</th>
+                <th>kuplivaa</th>
+                <th>kylmää</th>
+            </tr>
+            <tr>
+                <td>Kahvi</td>
+                <td>Limu</td>
+                <td>Olut</td>
+            </tr>
+            <tr>
+                <td>Tee</td>
+                <td>Energiajuoma</td>
+                <td>Siideri</td>
+            </tr>
+            <tr>
+                <td>Kaakao</td>
+                <td>Shampanja</td>
+                <td>Lonkero</td>
+            </tr>
+            <tr>
+                <td>Pulla</td>
+                <td>Vissy</td>
+                <td>Vesi</td>
+            </tr>
+            <tr>
+                <td class="text" colspan="2" rowspan="2">
+                    Tämän taulukon teille loi <u>Pulla Pete</u>
+                </td>
+                <td>Tyhjää</td>
+            </tr>
+            <tr>
+                <td>Lisää tyhjää</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="form">
+        <form>
+            <fieldset>  
+                <legend>Tule myyymään laatua!</legend>  
+                <div class="space">
+                    <label for="fname">Etunimi</label>
+                    <input required id="fname" type="text">
+                    <br>
+                    <label for="lname">Sukunimi</label>
+                    <input required id="lname" type="text">
+                    <br>
+                    <label for="email">Sähköposti</label>
+                    <input required id="email" type="email">
+                    <br>
+                    <label for="car">Työkokemus</label>
+                    <select id="car">
+                        <option value=" ">Ei mitään</option>
+                        <option value="lada">Hieman</option>
+                        <option value="tesla">Paljon</option>
+                    </select>
+                <br>
+                <!-- <br> -->
+                    <label for="news">Olen saanut koronarokotteet</label>
+                    <input id="news" type="checkbox">
+                    <br>
+                    <!-- <br> -->
+                    <label for="submit">Lähetä hakemuksesi</label>
+                    <input id="submit" type="submit" value="Add new user">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
